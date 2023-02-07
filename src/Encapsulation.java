@@ -23,7 +23,7 @@ public class Encapsulation {
 //            } else if (decision == 2) {
 //                BankAccount.deposit();
 //            } else if (decision == 3){
-//                break;
+//                System.exit(0);
 //            } else {
 //                System.out.println("Wrong action. Try one more time");
 //                return;
@@ -66,7 +66,6 @@ class BankAccount {
         savings.setBalance(savings.getBalance());
         System.out.println("Account balance: ");
         System.out.println(savings.getBalance());
-
     }
     public static void withdraw(){
         BankAccount savings = new BankAccount();
