@@ -1,11 +1,8 @@
 import java.util.Scanner;
-
 public class Encapsulation {
     public static void main(String[] args) {
         BankAccount savings = new BankAccount();
         Scanner action = new Scanner(System.in);
-
-
         do {
             System.out.println("Account balance: " + savings.getBalance());
             System.out.println("What do you want to do?");
